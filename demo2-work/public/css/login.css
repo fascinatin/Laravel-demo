@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #efefef; */
+    background: url(../img/1683360088407260.png) no-repeat;
+}
+.form-group #contact_name {
+width: 300px;
+height: 15px;
+}
+.form-group .youxiang {
+    width: 300px;
+    height: 15px;
+ }
+.tm-address-box{
+      
+        position: relative;
+        left: 69px;
+        margin: 4px 0;
+      
+}
+#tmSideBar{
+    border-radius: 0px 10px 10px 0px;
+   background-color:rgba(0, 0, 0, 0.7);
+  
+}
+#tmSideBar li a{
+   
+}
+
+.tm-font-big{
+    color: black;
+}
+.tm-font-big:hover{
+    
+    background-color: white;
+}
+.tm-content #tm-section-1{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(242, 241, 241, 0.5);
+    box-shadow: 5px 7px 4px 0px rgba(242, 241, 241, 0.5);
+}
+#tm-section-4 .ml-auto{
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    color: black;
+    /* line-height: 300px; */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 150px;
+    background-color: rgba(242, 241, 241, 0.5);
+    box-shadow: 5px 7px 4px 0px rgba(242, 241, 241, 0.5);
+}
+.tm-img-slider a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* 其他登录方式开始 */
+.qitafanshi{
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+position: relative;
+top: 50px;
+}
+.weixin{
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+}
+.qq{
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+}
+.qq .icon,.weixin .icon{
+    vertical-align: middle;
+}
+.lijizhuce{
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+}
+.fa-weixin{
+    display: block;
+    background-color: #efefef;
+}
+.weixin:hover,.qq:hover,.lijizhuce:hover{
+    cursor: pointer;
+}
+/* 其他登录方式结束 */

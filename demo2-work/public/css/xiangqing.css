@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html body {
+	background-color: #f4f4f4;
+}
+.row .btnan {
+	width: 49px;
+	height: 24px;
+	line-height: 11px;
+	font-size: 13px;
+}
+
+.inputsearch {
+	border-radius: 10px;
+	padding-left: 8px;
+	margin-top: 5px;
+	outline: none;
+}
+
+.fa-search {
+	position: relative;
+	right: 24px;
+
+}
+
+.nav-daohan {
+	background-color: rgba(46, 61, 90, 0.9);
+
+}
+
+.navbar-brand>img {
+	display: block;
+	position: relative;
+	width: 100px;
+	top: -5px;
+}
+
+.daohan-zi li a {
+	color: #fff;
+}
+
+.daohan-zi li a:hover {
+	color: black;
+}
+
+.itemimg {
+	width: 100%;
+}
+
+.carousel-inner {
+	margin-top: 50px;
+}
+
+.navbar-header .icon-bar {
+	background-color: white;
+}
+
+
+/* 详情内容开始 */
+.xian{
+    width: 100%;
+    height: 500px;
+    /* background-color: pink; */
+    margin-top: 80px;
+    text-align: center;
+}
+.xian1{
+    width: 100%;
+    height: 500px;
+    /* background-color: green; */
+    margin-top: 150px;
+   
+}
+.fa-heart{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+.xain-title{
+    margin-top: 20px;
+}
+.xiangq-color{
+    color: #ccc;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.xiangq-b{
+    margin-top: 20px;
+}
+.xianq-kezi{
+    margin-top: 20px;
+}
+.huabei-icon{
+    vertical-align: top;
+}
+.xianq-jia{
+    margin-top: 10px;
+}
+.xainq-l{
+    margin-top: -35px;
+    margin-left: 200px;
+}
+/* 详情内容结束 */
+
+
+
+
+
+
+/* 购物车加减按钮开始 */
+.flex-container{
+	margin-top: 20px;
+	display: flex;
+}
+.product-btn{
+	width: 284px;
+	height: 43px;
+	border: 1px solid #000;
+	display: flex;
+	margin-left: 5px;
+}
+.xian1 h3{
+	margin-top: 0;
+}
+.minus,.plus{
+	padding: 10px;
+}
+.qty{
+	text-align: center;
+	width: 50px;
+	padding: 10px;
+}
+.product-btn-le{
+width: 50%;
+line-height: 43px;
+text-align: center;
+cursor: pointer;
+}
+.product-btn-ri{
+width: 50%;
+background-color: #000;
+line-height: 43px;
+text-align: center;
+color: white;
+cursor: pointer;
+}
+/* 购物车加减按钮结束 */
+
+
+
+/* 底部开始 */
+.footer-bottom {
+	width: 100%;
+	height: 445px;
+	background-color: #000;
+
+}
+
+.icon-box {
+	height: 46px;
+	margin: auto;
+}
+
+.footer-b {
+	text-align: center;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.footer-b p {
+	text-align: center;
+}
+
+.footer-c {
+	color: white;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.footer-c ul li a {
+	color: #ffffffcc;
+}
+
+.footer-c ul li:nth-child(1) {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.footer-c ul li:nth-child(n+2) a {
+	font-size: 12px;
+	color: #808080;
+}
+
+.footer-boder {
+	width: 90%;
+	margin: 50px auto;
+	border-top: 1px solid #808080;
+}
+
+.footer-d {
+	font-size: 12px;
+	color: #808080;
+}
+li{
+    list-style: none;
+}
+/* 底部结束 */
+
+
+
+
+
+
+
+
+
+
+/* 分类开始 */
+.ner{
+	margin-top: 50px;
+	height: 600px;
+	/* background-color: pink; */
+}
+.zuoce{
+	height: 500px;
+	margin-top: 50px;
+	/* background-color: green; */
+}
+.zuoce a{
+	color: #000;
+	font-size: 18px;
+	height: 80px;
+	line-height: 80px;
+}
+.youce{
+	margin-top: 50px;
+}
+
+/* 分类结束 */
+
+
+.xain-title button{
+	
+   
+    border: none;
+    position: relative;
+    top: -20px;
+    left: 80px;
+    background: none;
+
+}
